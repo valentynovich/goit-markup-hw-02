@@ -3,7 +3,7 @@
   --blue: #2196f3;
   --paragraph: #757575;
   --bg: #2f303a;
-  --white: #ffffff; 
+  --white: #ffffff;
 }
 
 body {
@@ -230,7 +230,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  background: var(--blue)
+  background: var(--blue);
   color: var(--white);
 }
 
