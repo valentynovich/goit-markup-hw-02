@@ -45,8 +45,7 @@ body {
 
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue);
@@ -67,11 +66,8 @@ body {
 
 /* hero */
 .hero {
-  width: 1600px;
-  height: 200px;
-  left: 0px;
-  top: 80px;
   background: var(--bg);
+  height: 200px;
 }
 
 .hero-title {
@@ -85,9 +81,8 @@ body {
 }
 
 .hero-btn {
-  margin: ;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   display: flex;
@@ -96,14 +91,12 @@ body {
   letter-spacing: 0.06em;
   color: var(--white);
   background: var(--blue);
+  cursor: pointer;
 }
 
 .hero-btn-center {
-  position: absolute;
-  width: 200px;
-  height: 50px;
   left: 700px;
-  top: 10;
+  position: absolute;
 }
 
 .hero-btn:focus,
@@ -114,7 +107,7 @@ body {
 /* benefit */
 
 .benefits-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -123,7 +116,7 @@ body {
 }
 
 .benefits-h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.03em;
@@ -132,7 +125,6 @@ body {
 }
 
 .benefits-pr {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -142,7 +134,7 @@ body {
 /* work */
 
 .work-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -157,7 +149,7 @@ body {
 }
 
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -175,7 +167,6 @@ body {
 }
 
 .team-pr {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -191,8 +182,7 @@ body {
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -205,10 +195,12 @@ body {
   color: var(--white);
 }
 
-.footer-location {
-  font-family: Roboto;
+.footer-address {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+}
+
+.footer-location {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -217,9 +209,6 @@ body {
 
 .footer-item-tell,
 .footer-item-mail {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -243,6 +232,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--heading);
   background: #f5f4fa;
+  cursor: pointer;
 }
 
 .curent2 {
@@ -251,7 +241,7 @@ body {
 }
 
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -259,7 +249,6 @@ body {
 }
 
 .portfolio-pr {
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
